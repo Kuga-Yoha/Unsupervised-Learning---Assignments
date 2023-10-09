@@ -64,7 +64,7 @@ print("Best parameters found by GridSearchCV:")
 print(grid_search.best_params_)
 
 
-Plot the results from using GridSearchCV in
+#Plot the results from using GridSearchCV in
 #6: Evaluate the best model on the test set and visualize the results
 best_model = grid_search.best_estimator_
 y_pred_swiss_roll = best_model.predict(X_test_swiss_roll)
